@@ -12,6 +12,7 @@ let myPin = 123;
         }
     ]);
 
+    
     if (pinAnswer.pin === myPin) {
         console.log("Correct PIN.");
         let operationAns = await inquirer.prompt([
